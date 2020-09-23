@@ -1,0 +1,11 @@
+#!/bin/bash
+branch=`git rev-parse --abbrev-ref HEAD`
+branchformat=(caep\|CAEP\|sass\|SASS\|sre\|SRE)-[0-9]{4}$
+if echo $branch | grep -Eq $branchformat
+then
+    echo ""
+else
+  echo "!!! Your branch name is not in the proper format"
+  echo "It should be like caep-1234 or sass-1234 or sre-1234"
+  echo "where 1234 is JIRA ID "
+fi

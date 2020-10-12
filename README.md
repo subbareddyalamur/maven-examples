@@ -1,5 +1,7 @@
 ## Apache Maven Tutorial
 
 Source code for mkyong.com Apache Maven tutorial
-Adding pr changes
-https://www.mkyong.com/tutorials/maven-tutorials/
+Adding changes-2
+Doing github actions changes
+https://www.mkyong.com/tutorials/maven-tutorials
+

@@ -22,5 +22,4 @@ jobs:
         
     - name: Do Clean Build and Run Unit Test
       run: |
-            echo "Doing clean build "
-	    mvn clean install
+            echo "Doing clean build"

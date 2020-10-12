@@ -22,4 +22,5 @@ jobs:
     - name: Do Clean Build and Run Unit Test
       run: |
             echo "Doing clean build"
+            cd maven-examples/java-project
             mvn clean install 
